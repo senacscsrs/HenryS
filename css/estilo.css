@@ -1,0 +1,106 @@
+/* Fonte e estilo base */
+body {
+  background: linear-gradient(135deg, #d6dbdd, #d6dbdd, #d6dbdd);
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Cabeçalho geral */
+.cabecalho {
+  background-color: #ffffff;
+  padding: 60px 20px 40px;
+  box-shadow: 0 4px 12px #00000022;
+}
+
+.cabecalho-conteudo h1 {
+  font-size: 42px;
+  margin: 0;
+  color: #000;
+}
+
+.cabecalho-conteudo h2 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.cabecalho-conteudo p {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin: 20px auto 0;
+}
+
+/* Área principal */
+.area-principal {
+  padding: 50px 20px;
+}
+
+/* Seção de atividades na index */
+.secao-atividades {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00000022;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.secao-atividades h2 {
+  font-size: 28px;
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.secao-atividades p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Botão */
+.botao-atividades {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  background: linear-gradient(to right, #00aced, #1e90ff);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.botao-atividades:hover {
+  background: #0084b4;
+  transform: scale(1.05);
+}
+
+/* Cards de atividades */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 0 10px #00000030;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card h3 {
+  font
+}
