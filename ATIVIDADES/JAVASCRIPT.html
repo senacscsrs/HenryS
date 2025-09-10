@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let nome=prompt("Qual é o seu nome????")
+let distância_da_viagem=parseInt(prompt("Qual é a distância da viagem?"))
+let velocidade_média=parseInt(prompt("Qual é a velocidade média do seu carro?"))
+let km_litro=parseInt(prompt("Quantos km o seu carro faz por litro?"))
+let preço_da_gasolina=parseInt(prompt("Qual é o preço da gasolina?"))
+let tempo_estimado=distância_da_viagem/velocidade_média
+let gasolina_necessária=distância_da_viagem/km_litro
+let Gasto_total=gasolina_necessária*tempo_estimado
+
+
+alrt("Seu gasto total é:"+ Gasto_total)
+
+console.log()
+    </script>
+</body>
+</html>
