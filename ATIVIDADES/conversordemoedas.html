@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moedas</title>
+</head>
+<body>
+  <script>
+    let cotacao = 5.50;
+
+    let real = parseFloat(prompt("Digite o valor em Reais:"));
+    let dolar = real / cotacao;
+    alert("Olá, se vc tiver "+real.toFixed(2)+" reais então você vai ter "+dolar.toFixed(2)+" dólares.");
+
+    let dolar2 = parseFloat(prompt("Digite o valor em Dólares:"));
+    let real2 = dolar2 * cotacao;
+    alert("Olá, se vc tiver "+dolar2.toFixed(2)+" dólares então você vai ter "+real2.toFixed(2)+" reais.");;
+  </script>
+</body>
+</html>
